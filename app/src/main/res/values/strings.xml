@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI calculator</string>
+    <string name="bold">BMI CALCULATOR</string>
+    <string name="hint1">Enter your height in feets</string>
+    <string name="hint2">Enter your height in inches</string>
+    <string name="hint3">Enter your weight in kilograms</string>
+    <string name="result">Result</string>
+    <string name="suggest">Requirement</string>
+    <string name="btn1">Calculate</string>
+    <string name="btn2">Reset</string>
+</resources>

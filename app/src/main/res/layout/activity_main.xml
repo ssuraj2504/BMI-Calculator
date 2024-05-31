@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:padding="20dp"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="20dp"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="364dp"
+        android:layout_height="711dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        app:flow_horizontalAlign="center"
+        tools:ignore="MissingConstraints,RtlSymmetry"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="-8dp">
+
+        <TextView
+            android:id="@+id/txtittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#FFEB3B"
+            android:backgroundTint="#51DA57"
+            android:fontFamily="sans-serif-black"
+            android:importantForAutofill="no"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/bold"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textColorLink="#FAF6F6"
+            tools:ignore="TextViewEdits" />
+
+
+        <EditText
+            android:id="@+id/edtheightfeet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="@string/hint1"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColorHint="#546E7A"
+            android:textColorLink="#FAF6F6"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/edtheightinch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="@string/hint2"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColorHint="#546E7A"
+            android:textColorLink="#FAF6F6"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/edtweight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="@string/hint3"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColorHint="#546E7A"
+            android:textColorLink="#FAF6F6"
+            tools:ignore="Autofill" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btncalcu"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#51DA57"
+                android:text="@string/btn1"
+                android:textColor="#090909" />
+
+            <Button
+                android:id="@+id/btnreset"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#51DA57"
+                android:text="@string/btn2"
+                android:textColor="#090909" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFEB3B"
+            android:backgroundTint="#51DA57"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/result"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textColorLink="#FAF6F6" />
+
+        <TextView
+            android:id="@+id/txtSuggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFEB3B"
+            android:backgroundTint="#51DA57"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/suggest"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textColorLink="#FAF6F6" />
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
